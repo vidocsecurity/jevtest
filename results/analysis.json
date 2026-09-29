@@ -1,0 +1,5481 @@
+{
+ "generated": "2026-09-29 12:57:24",
+ "progress": {
+  "done": 1488,
+  "total": 1488,
+  "reports": 31,
+  "runs": 3,
+  "severities": [
+   "critical",
+   "high",
+   "medium"
+  ],
+  "n_usable": 1488,
+  "n_errored": 0,
+  "n_refused": 0
+ },
+ "metric_order": [
+  "AV",
+  "AC",
+  "PR",
+  "UI",
+  "S",
+  "C",
+  "I",
+  "A"
+ ],
+ "models": [
+  "jev",
+  "sonnet-5",
+  "gpt-5.6-sol",
+  "gpt-5.6-luna",
+  "gemini-3.1-pro",
+  "gemini-3.8-flash",
+  "glm-5.3",
+  "kimi-k3"
+ ],
+ "table": [
+  {
+   "model": "jev",
+   "condition": "bare",
+   "n_usable": 93,
+   "n_errored": 0,
+   "n_refused": 0,
+   "n_expected": 93,
+   "metrics_hit": 598,
+   "metrics_possible": 744,
+   "metrics_possible_complete": 744,
+   "accuracy": 0.803763440860215,
+   "exact8": 19,
+   "parse_ok": 93,
+   "cost": {
+    "n": 93,
+    "total": 0.011648322000000001,
+    "mean": 0.00012525077419354842,
+    "median": 0.00011701200000000001
+   },
+   "thinking": {
+    "n": 0,
+    "total": null,
+    "mean": null,
+    "median": null
+   },
+   "latency_ms": {
+    "n": 93,
+    "total": 84811.0,
+    "mean": 911.9462365591398,
+    "median": 361.4
+   },
+   "cost_sources": [
+    "computed"
+   ],
+   "conf_right": 0.78,
+   "conf_wrong": 0.47315068493150686,
+   "conf_n_right": 598,
+   "conf_n_wrong": 146
+  },
+  {
+   "model": "jev",
+   "condition": "spec",
+   "n_usable": 93,
+   "n_errored": 0,
+   "n_refused": 0,
+   "n_expected": 93,
+   "metrics_hit": 633,
+   "metrics_possible": 744,
+   "metrics_possible_complete": 744,
+   "accuracy": 0.8508064516129032,
+   "exact8": 21,
+   "parse_ok": 93,
+   "cost": {
+    "n": 93,
+    "total": 0.057309462000000005,
+    "mean": 0.0006162307741935485,
+    "median": 0.0006079920000000001
+   },
+   "thinking": {
+    "n": 0,
+    "total": null,
+    "mean": null,
+    "median": null
+   },
+   "latency_ms": {
+    "n": 93,
+    "total": 96440.2,
+    "mean": 1036.9913978494624,
+    "median": 444.7
+   },
+   "cost_sources": [
+    "computed"
+   ],
+   "conf_right": 0.8695576619273302,
+   "conf_wrong": 0.5008108108108108,
+   "conf_n_right": 633,
+   "conf_n_wrong": 111
+  },
+  {
+   "model": "sonnet-5",
+   "condition": "bare",
+   "n_usable": 93,
+   "n_errored": 0,
+   "n_refused": 0,
+   "n_expected": 93,
+   "metrics_hit": 663,
+   "metrics_possible": 744,
+   "metrics_possible_complete": 744,
+   "accuracy": 0.8911290322580645,
+   "exact8": 41,
+   "parse_ok": 89,
+   "cost": {
+    "n": 93,
+    "total": 0.648042,
+    "mean": 0.006968193548387097,
+    "median": 0.0068
+   },
+   "thinking": {
+    "n": 0,
+    "total": null,
+    "mean": null,
+    "median": null
+   },
+   "latency_ms": {
+    "n": 93,
+    "total": 199134.2,
+    "mean": 2141.227956989247,
+    "median": 1991.8
+   },
+   "cost_sources": [
+    "api"
+   ],
+   "conf_right": null,
+   "conf_wrong": null,
+   "conf_n_right": 0,
+   "conf_n_wrong": 0
+  },
+  {
+   "model": "sonnet-5",
+   "condition": "spec",
+   "n_usable": 93,
+   "n_errored": 0,
+   "n_refused": 0,
+   "n_expected": 93,
+   "metrics_hit": 667,
+   "metrics_possible": 744,
+   "metrics_possible_complete": 744,
+   "accuracy": 0.896505376344086,
+   "exact8": 48,
+   "parse_ok": 93,
+   "cost": {
+    "n": 93,
+    "total": 2.539662,
+    "mean": 0.027308193548387098,
+    "median": 0.02714
+   },
+   "thinking": {
+    "n": 0,
+    "total": null,
+    "mean": null,
+    "median": null
+   },
+   "latency_ms": {
+    "n": 93,
+    "total": 200900.5,
+    "mean": 2160.2204301075267,
+    "median": 2076.2
+   },
+   "cost_sources": [
+    "api"
+   ],
+   "conf_right": null,
+   "conf_wrong": null,
+   "conf_n_right": 0,
+   "conf_n_wrong": 0
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "condition": "bare",
+   "n_usable": 93,
+   "n_errored": 0,
+   "n_refused": 0,
+   "n_expected": 93,
+   "metrics_hit": 647,
+   "metrics_possible": 744,
+   "metrics_possible_complete": 744,
+   "accuracy": 0.8696236559139785,
+   "exact8": 26,
+   "parse_ok": 93,
+   "cost": {
+    "n": 93,
+    "total": 0.8475786,
+    "mean": 0.009113748387096774,
+    "median": 0.006424
+   },
+   "thinking": {
+    "n": 93,
+    "total": 20130,
+    "mean": 216.4516129032258,
+    "median": 128
+   },
+   "latency_ms": {
+    "n": 93,
+    "total": 464462.4,
+    "mean": 4994.2193548387095,
+    "median": 3972.6
+   },
+   "cost_sources": [
+    "api"
+   ],
+   "conf_right": null,
+   "conf_wrong": null,
+   "conf_n_right": 0,
+   "conf_n_wrong": 0
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "condition": "spec",
+   "n_usable": 93,
+   "n_errored": 0,
+   "n_refused": 0,
+   "n_expected": 93,
+   "metrics_hit": 659,
+   "metrics_possible": 744,
+   "metrics_possible_complete": 744,
+   "accuracy": 0.885752688172043,
+   "exact8": 28,
+   "parse_ok": 93,
+   "cost": {
+    "n": 93,
+    "total": 1.8878,
+    "mean": 0.020298924731182794,
+    "median": 0.0084016
+   },
+   "thinking": {
+    "n": 93,
+    "total": 16587,
+    "mean": 178.3548387096774,
+    "median": 124
+   },
+   "latency_ms": {
+    "n": 93,
+    "total": 441546.0,
+    "mean": 4747.806451612903,
+    "median": 3794.7
+   },
+   "cost_sources": [
+    "api"
+   ],
+   "conf_right": null,
+   "conf_wrong": null,
+   "conf_n_right": 0,
+   "conf_n_wrong": 0
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "condition": "bare",
+   "n_usable": 93,
+   "n_errored": 0,
+   "n_refused": 0,
+   "n_expected": 93,
+   "metrics_hit": 631,
+   "metrics_possible": 744,
+   "metrics_possible_complete": 744,
+   "accuracy": 0.8481182795698925,
+   "exact8": 25,
+   "parse_ok": 93,
+   "cost": {
+    "n": 93,
+    "total": 0.05349464,
+    "mean": 0.0005752111827956989,
+    "median": 0.0005848
+   },
+   "thinking": {
+    "n": 93,
+    "total": 24686,
+    "mean": 265.44086021505376,
+    "median": 224
+   },
+   "latency_ms": {
+    "n": 93,
+    "total": 556388.8,
+    "mean": 5982.675268817205,
+    "median": 5422.4
+   },
+   "cost_sources": [
+    "api"
+   ],
+   "conf_right": null,
+   "conf_wrong": null,
+   "conf_n_right": 0,
+   "conf_n_wrong": 0
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "condition": "spec",
+   "n_usable": 93,
+   "n_errored": 0,
+   "n_refused": 0,
+   "n_expected": 93,
+   "metrics_hit": 650,
+   "metrics_possible": 744,
+   "metrics_possible_complete": 744,
+   "accuracy": 0.8736559139784946,
+   "exact8": 31,
+   "parse_ok": 93,
+   "cost": {
+    "n": 93,
+    "total": 0.1077941,
+    "mean": 0.0011590763440860216,
+    "median": 0.00066246
+   },
+   "thinking": {
+    "n": 93,
+    "total": 16888,
+    "mean": 181.59139784946237,
+    "median": 132
+   },
+   "latency_ms": {
+    "n": 93,
+    "total": 445108.3,
+    "mean": 4786.110752688172,
+    "median": 4350.3
+   },
+   "cost_sources": [
+    "api"
+   ],
+   "conf_right": null,
+   "conf_wrong": null,
+   "conf_n_right": 0,
+   "conf_n_wrong": 0
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "condition": "bare",
+   "n_usable": 93,
+   "n_errored": 0,
+   "n_refused": 0,
+   "n_expected": 93,
+   "metrics_hit": 648,
+   "metrics_possible": 744,
+   "metrics_possible_complete": 744,
+   "accuracy": 0.8709677419354839,
+   "exact8": 26,
+   "parse_ok": 93,
+   "cost": {
+    "n": 93,
+    "total": 1.226052,
+    "mean": 0.013183354838709678,
+    "median": 0.009412
+   },
+   "thinking": {
+    "n": 93,
+    "total": 63630,
+    "mean": 684.1935483870968,
+    "median": 299
+   },
+   "latency_ms": {
+    "n": 93,
+    "total": 764677.1,
+    "mean": 8222.33440860215,
+    "median": 4880.2
+   },
+   "cost_sources": [
+    "api"
+   ],
+   "conf_right": null,
+   "conf_wrong": null,
+   "conf_n_right": 0,
+   "conf_n_wrong": 0
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "condition": "spec",
+   "n_usable": 93,
+   "n_errored": 0,
+   "n_refused": 0,
+   "n_expected": 93,
+   "metrics_hit": 645,
+   "metrics_possible": 744,
+   "metrics_possible_complete": 744,
+   "accuracy": 0.8669354838709677,
+   "exact8": 32,
+   "parse_ok": 93,
+   "cost": {
+    "n": 93,
+    "total": 2.1414798,
+    "mean": 0.02302666451612903,
+    "median": 0.021808
+   },
+   "thinking": {
+    "n": 93,
+    "total": 51424,
+    "mean": 552.9462365591398,
+    "median": 356
+   },
+   "latency_ms": {
+    "n": 93,
+    "total": 634190.7,
+    "mean": 6819.254838709678,
+    "median": 5160.8
+   },
+   "cost_sources": [
+    "api"
+   ],
+   "conf_right": null,
+   "conf_wrong": null,
+   "conf_n_right": 0,
+   "conf_n_wrong": 0
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "condition": "bare",
+   "n_usable": 93,
+   "n_errored": 0,
+   "n_refused": 0,
+   "n_expected": 93,
+   "metrics_hit": 661,
+   "metrics_possible": 744,
+   "metrics_possible_complete": 744,
+   "accuracy": 0.8884408602150538,
+   "exact8": 31,
+   "parse_ok": 93,
+   "cost": {
+    "n": 93,
+    "total": 0.237189,
+    "mean": 0.0025504193548387096,
+    "median": 0.001944
+   },
+   "thinking": {
+    "n": 0,
+    "total": null,
+    "mean": null,
+    "median": null
+   },
+   "latency_ms": {
+    "n": 93,
+    "total": 1561882.3,
+    "mean": 16794.433333333334,
+    "median": 9234.7
+   },
+   "cost_sources": [
+    "api"
+   ],
+   "conf_right": null,
+   "conf_wrong": null,
+   "conf_n_right": 0,
+   "conf_n_wrong": 0
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "condition": "spec",
+   "n_usable": 93,
+   "n_errored": 0,
+   "n_refused": 0,
+   "n_expected": 93,
+   "metrics_hit": 654,
+   "metrics_possible": 744,
+   "metrics_possible_complete": 744,
+   "accuracy": 0.8790322580645161,
+   "exact8": 25,
+   "parse_ok": 93,
+   "cost": {
+    "n": 93,
+    "total": 0.865047225,
+    "mean": 0.009301583064516129,
+    "median": 0.007646925
+   },
+   "thinking": {
+    "n": 93,
+    "total": 83390,
+    "mean": 896.6666666666666,
+    "median": 353
+   },
+   "latency_ms": {
+    "n": 93,
+    "total": 2271720.1,
+    "mean": 24427.097849462367,
+    "median": 12492.0
+   },
+   "cost_sources": [
+    "api"
+   ],
+   "conf_right": null,
+   "conf_wrong": null,
+   "conf_n_right": 0,
+   "conf_n_wrong": 0
+  },
+  {
+   "model": "glm-5.3",
+   "condition": "bare",
+   "n_usable": 93,
+   "n_errored": 0,
+   "n_refused": 0,
+   "n_expected": 93,
+   "metrics_hit": 653,
+   "metrics_possible": 744,
+   "metrics_possible_complete": 744,
+   "accuracy": 0.8776881720430108,
+   "exact8": 40,
+   "parse_ok": 93,
+   "cost": {
+    "n": 93,
+    "total": 0.164754765,
+    "mean": 0.0017715566129032259,
+    "median": 0.001248225
+   },
+   "thinking": {
+    "n": 93,
+    "total": 9352,
+    "mean": 100.55913978494624,
+    "median": 51
+   },
+   "latency_ms": {
+    "n": 93,
+    "total": 180983.1,
+    "mean": 1946.0548387096774,
+    "median": 1238.1
+   },
+   "cost_sources": [
+    "api"
+   ],
+   "conf_right": null,
+   "conf_wrong": null,
+   "conf_n_right": 0,
+   "conf_n_wrong": 0
+  },
+  {
+   "model": "glm-5.3",
+   "condition": "spec",
+   "n_usable": 93,
+   "n_errored": 0,
+   "n_refused": 0,
+   "n_expected": 93,
+   "metrics_hit": 656,
+   "metrics_possible": 744,
+   "metrics_possible_complete": 744,
+   "accuracy": 0.8817204301075269,
+   "exact8": 34,
+   "parse_ok": 93,
+   "cost": {
+    "n": 93,
+    "total": 0.20671437,
+    "mean": 0.0022227351612903227,
+    "median": 0.0019688
+   },
+   "thinking": {
+    "n": 93,
+    "total": 3925,
+    "mean": 42.204301075268816,
+    "median": 33
+   },
+   "latency_ms": {
+    "n": 93,
+    "total": 228726.4,
+    "mean": 2459.4236559139786,
+    "median": 1702.5
+   },
+   "cost_sources": [
+    "api"
+   ],
+   "conf_right": null,
+   "conf_wrong": null,
+   "conf_n_right": 0,
+   "conf_n_wrong": 0
+  },
+  {
+   "model": "kimi-k3",
+   "condition": "bare",
+   "n_usable": 93,
+   "n_errored": 0,
+   "n_refused": 0,
+   "n_expected": 93,
+   "metrics_hit": 657,
+   "metrics_possible": 744,
+   "metrics_possible_complete": 744,
+   "accuracy": 0.8830645161290323,
+   "exact8": 27,
+   "parse_ok": 93,
+   "cost": {
+    "n": 93,
+    "total": 0.5582410151,
+    "mean": 0.006002591560215054,
+    "median": 0.0043135664
+   },
+   "thinking": {
+    "n": 93,
+    "total": 18503,
+    "mean": 198.95698924731184,
+    "median": 54
+   },
+   "latency_ms": {
+    "n": 93,
+    "total": 868500.8,
+    "mean": 9338.718279569892,
+    "median": 2299.2
+   },
+   "cost_sources": [
+    "api"
+   ],
+   "conf_right": null,
+   "conf_wrong": null,
+   "conf_n_right": 0,
+   "conf_n_wrong": 0
+  },
+  {
+   "model": "kimi-k3",
+   "condition": "spec",
+   "n_usable": 93,
+   "n_errored": 0,
+   "n_refused": 0,
+   "n_expected": 93,
+   "metrics_hit": 653,
+   "metrics_possible": 744,
+   "metrics_possible_complete": 744,
+   "accuracy": 0.8776881720430108,
+   "exact8": 27,
+   "parse_ok": 93,
+   "cost": {
+    "n": 93,
+    "total": 0.8788271192,
+    "mean": 0.009449753969892474,
+    "median": 0.0062958
+   },
+   "thinking": {
+    "n": 93,
+    "total": 8508,
+    "mean": 91.48387096774194,
+    "median": 87
+   },
+   "latency_ms": {
+    "n": 93,
+    "total": 788456.9,
+    "mean": 8478.0311827957,
+    "median": 3226.7
+   },
+   "cost_sources": [
+    "api"
+   ],
+   "conf_right": null,
+   "conf_wrong": null,
+   "conf_n_right": 0,
+   "conf_n_wrong": 0
+  }
+ ],
+ "heatmap": [
+  {
+   "model": "jev",
+   "metric": "AV",
+   "bare": {
+    "hit": 93,
+    "total": 93,
+    "acc": 1.0
+   },
+   "spec": {
+    "hit": 87,
+    "total": 93,
+    "acc": 0.9354838709677419
+   },
+   "delta": -0.06451612903225812
+  },
+  {
+   "model": "jev",
+   "metric": "AC",
+   "bare": {
+    "hit": 90,
+    "total": 93,
+    "acc": 0.967741935483871
+   },
+   "spec": {
+    "hit": 90,
+    "total": 93,
+    "acc": 0.967741935483871
+   },
+   "delta": 0.0
+  },
+  {
+   "model": "jev",
+   "metric": "PR",
+   "bare": {
+    "hit": 84,
+    "total": 93,
+    "acc": 0.9032258064516129
+   },
+   "spec": {
+    "hit": 87,
+    "total": 93,
+    "acc": 0.9354838709677419
+   },
+   "delta": 0.032258064516129004
+  },
+  {
+   "model": "jev",
+   "metric": "UI",
+   "bare": {
+    "hit": 75,
+    "total": 93,
+    "acc": 0.8064516129032258
+   },
+   "spec": {
+    "hit": 93,
+    "total": 93,
+    "acc": 1.0
+   },
+   "delta": 0.19354838709677424
+  },
+  {
+   "model": "jev",
+   "metric": "S",
+   "bare": {
+    "hit": 53,
+    "total": 93,
+    "acc": 0.5698924731182796
+   },
+   "spec": {
+    "hit": 63,
+    "total": 93,
+    "acc": 0.6774193548387096
+   },
+   "delta": 0.10752688172043001
+  },
+  {
+   "model": "jev",
+   "metric": "C",
+   "bare": {
+    "hit": 73,
+    "total": 93,
+    "acc": 0.7849462365591398
+   },
+   "spec": {
+    "hit": 78,
+    "total": 93,
+    "acc": 0.8387096774193549
+   },
+   "delta": 0.05376344086021512
+  },
+  {
+   "model": "jev",
+   "metric": "I",
+   "bare": {
+    "hit": 72,
+    "total": 93,
+    "acc": 0.7741935483870968
+   },
+   "spec": {
+    "hit": 75,
+    "total": 93,
+    "acc": 0.8064516129032258
+   },
+   "delta": 0.032258064516129004
+  },
+  {
+   "model": "jev",
+   "metric": "A",
+   "bare": {
+    "hit": 58,
+    "total": 93,
+    "acc": 0.6236559139784946
+   },
+   "spec": {
+    "hit": 60,
+    "total": 93,
+    "acc": 0.6451612903225806
+   },
+   "delta": 0.021505376344086002
+  },
+  {
+   "model": "sonnet-5",
+   "metric": "AV",
+   "bare": {
+    "hit": 93,
+    "total": 93,
+    "acc": 1.0
+   },
+   "spec": {
+    "hit": 93,
+    "total": 93,
+    "acc": 1.0
+   },
+   "delta": 0.0
+  },
+  {
+   "model": "sonnet-5",
+   "metric": "AC",
+   "bare": {
+    "hit": 89,
+    "total": 93,
+    "acc": 0.956989247311828
+   },
+   "spec": {
+    "hit": 88,
+    "total": 93,
+    "acc": 0.946236559139785
+   },
+   "delta": -0.010752688172043001
+  },
+  {
+   "model": "sonnet-5",
+   "metric": "PR",
+   "bare": {
+    "hit": 84,
+    "total": 93,
+    "acc": 0.9032258064516129
+   },
+   "spec": {
+    "hit": 84,
+    "total": 93,
+    "acc": 0.9032258064516129
+   },
+   "delta": 0.0
+  },
+  {
+   "model": "sonnet-5",
+   "metric": "UI",
+   "bare": {
+    "hit": 88,
+    "total": 93,
+    "acc": 0.946236559139785
+   },
+   "spec": {
+    "hit": 90,
+    "total": 93,
+    "acc": 0.967741935483871
+   },
+   "delta": 0.021505376344086002
+  },
+  {
+   "model": "sonnet-5",
+   "metric": "S",
+   "bare": {
+    "hit": 72,
+    "total": 93,
+    "acc": 0.7741935483870968
+   },
+   "spec": {
+    "hit": 74,
+    "total": 93,
+    "acc": 0.7956989247311828
+   },
+   "delta": 0.021505376344086002
+  },
+  {
+   "model": "sonnet-5",
+   "metric": "C",
+   "bare": {
+    "hit": 81,
+    "total": 93,
+    "acc": 0.8709677419354839
+   },
+   "spec": {
+    "hit": 79,
+    "total": 93,
+    "acc": 0.8494623655913979
+   },
+   "delta": -0.021505376344086002
+  },
+  {
+   "model": "sonnet-5",
+   "metric": "I",
+   "bare": {
+    "hit": 75,
+    "total": 93,
+    "acc": 0.8064516129032258
+   },
+   "spec": {
+    "hit": 81,
+    "total": 93,
+    "acc": 0.8709677419354839
+   },
+   "delta": 0.06451612903225812
+  },
+  {
+   "model": "sonnet-5",
+   "metric": "A",
+   "bare": {
+    "hit": 81,
+    "total": 93,
+    "acc": 0.8709677419354839
+   },
+   "spec": {
+    "hit": 78,
+    "total": 93,
+    "acc": 0.8387096774193549
+   },
+   "delta": -0.032258064516129004
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "metric": "AV",
+   "bare": {
+    "hit": 93,
+    "total": 93,
+    "acc": 1.0
+   },
+   "spec": {
+    "hit": 93,
+    "total": 93,
+    "acc": 1.0
+   },
+   "delta": 0.0
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "metric": "AC",
+   "bare": {
+    "hit": 90,
+    "total": 93,
+    "acc": 0.967741935483871
+   },
+   "spec": {
+    "hit": 91,
+    "total": 93,
+    "acc": 0.978494623655914
+   },
+   "delta": 0.010752688172043001
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "metric": "PR",
+   "bare": {
+    "hit": 90,
+    "total": 93,
+    "acc": 0.967741935483871
+   },
+   "spec": {
+    "hit": 87,
+    "total": 93,
+    "acc": 0.9354838709677419
+   },
+   "delta": -0.032258064516129115
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "metric": "UI",
+   "bare": {
+    "hit": 90,
+    "total": 93,
+    "acc": 0.967741935483871
+   },
+   "spec": {
+    "hit": 90,
+    "total": 93,
+    "acc": 0.967741935483871
+   },
+   "delta": 0.0
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "metric": "S",
+   "bare": {
+    "hit": 68,
+    "total": 93,
+    "acc": 0.7311827956989247
+   },
+   "spec": {
+    "hit": 68,
+    "total": 93,
+    "acc": 0.7311827956989247
+   },
+   "delta": 0.0
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "metric": "C",
+   "bare": {
+    "hit": 79,
+    "total": 93,
+    "acc": 0.8494623655913979
+   },
+   "spec": {
+    "hit": 83,
+    "total": 93,
+    "acc": 0.8924731182795699
+   },
+   "delta": 0.043010752688172005
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "metric": "I",
+   "bare": {
+    "hit": 77,
+    "total": 93,
+    "acc": 0.8279569892473119
+   },
+   "spec": {
+    "hit": 79,
+    "total": 93,
+    "acc": 0.8494623655913979
+   },
+   "delta": 0.021505376344086002
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "metric": "A",
+   "bare": {
+    "hit": 60,
+    "total": 93,
+    "acc": 0.6451612903225806
+   },
+   "spec": {
+    "hit": 68,
+    "total": 93,
+    "acc": 0.7311827956989247
+   },
+   "delta": 0.08602150537634412
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "metric": "AV",
+   "bare": {
+    "hit": 92,
+    "total": 93,
+    "acc": 0.989247311827957
+   },
+   "spec": {
+    "hit": 93,
+    "total": 93,
+    "acc": 1.0
+   },
+   "delta": 0.010752688172043001
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "metric": "AC",
+   "bare": {
+    "hit": 88,
+    "total": 93,
+    "acc": 0.946236559139785
+   },
+   "spec": {
+    "hit": 90,
+    "total": 93,
+    "acc": 0.967741935483871
+   },
+   "delta": 0.021505376344086002
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "metric": "PR",
+   "bare": {
+    "hit": 88,
+    "total": 93,
+    "acc": 0.946236559139785
+   },
+   "spec": {
+    "hit": 86,
+    "total": 93,
+    "acc": 0.9247311827956989
+   },
+   "delta": -0.021505376344086113
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "metric": "UI",
+   "bare": {
+    "hit": 89,
+    "total": 93,
+    "acc": 0.956989247311828
+   },
+   "spec": {
+    "hit": 93,
+    "total": 93,
+    "acc": 1.0
+   },
+   "delta": 0.043010752688172005
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "metric": "S",
+   "bare": {
+    "hit": 63,
+    "total": 93,
+    "acc": 0.6774193548387096
+   },
+   "spec": {
+    "hit": 72,
+    "total": 93,
+    "acc": 0.7741935483870968
+   },
+   "delta": 0.09677419354838712
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "metric": "C",
+   "bare": {
+    "hit": 77,
+    "total": 93,
+    "acc": 0.8279569892473119
+   },
+   "spec": {
+    "hit": 81,
+    "total": 93,
+    "acc": 0.8709677419354839
+   },
+   "delta": 0.043010752688172005
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "metric": "I",
+   "bare": {
+    "hit": 74,
+    "total": 93,
+    "acc": 0.7956989247311828
+   },
+   "spec": {
+    "hit": 72,
+    "total": 93,
+    "acc": 0.7741935483870968
+   },
+   "delta": -0.021505376344086002
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "metric": "A",
+   "bare": {
+    "hit": 60,
+    "total": 93,
+    "acc": 0.6451612903225806
+   },
+   "spec": {
+    "hit": 63,
+    "total": 93,
+    "acc": 0.6774193548387096
+   },
+   "delta": 0.032258064516129004
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "metric": "AV",
+   "bare": {
+    "hit": 93,
+    "total": 93,
+    "acc": 1.0
+   },
+   "spec": {
+    "hit": 93,
+    "total": 93,
+    "acc": 1.0
+   },
+   "delta": 0.0
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "metric": "AC",
+   "bare": {
+    "hit": 87,
+    "total": 93,
+    "acc": 0.9354838709677419
+   },
+   "spec": {
+    "hit": 87,
+    "total": 93,
+    "acc": 0.9354838709677419
+   },
+   "delta": 0.0
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "metric": "PR",
+   "bare": {
+    "hit": 87,
+    "total": 93,
+    "acc": 0.9354838709677419
+   },
+   "spec": {
+    "hit": 87,
+    "total": 93,
+    "acc": 0.9354838709677419
+   },
+   "delta": 0.0
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "metric": "UI",
+   "bare": {
+    "hit": 93,
+    "total": 93,
+    "acc": 1.0
+   },
+   "spec": {
+    "hit": 90,
+    "total": 93,
+    "acc": 0.967741935483871
+   },
+   "delta": -0.032258064516129004
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "metric": "S",
+   "bare": {
+    "hit": 72,
+    "total": 93,
+    "acc": 0.7741935483870968
+   },
+   "spec": {
+    "hit": 78,
+    "total": 93,
+    "acc": 0.8387096774193549
+   },
+   "delta": 0.06451612903225812
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "metric": "C",
+   "bare": {
+    "hit": 80,
+    "total": 93,
+    "acc": 0.8602150537634409
+   },
+   "spec": {
+    "hit": 76,
+    "total": 93,
+    "acc": 0.8172043010752689
+   },
+   "delta": -0.043010752688172005
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "metric": "I",
+   "bare": {
+    "hit": 78,
+    "total": 93,
+    "acc": 0.8387096774193549
+   },
+   "spec": {
+    "hit": 70,
+    "total": 93,
+    "acc": 0.7526881720430108
+   },
+   "delta": -0.08602150537634412
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "metric": "A",
+   "bare": {
+    "hit": 58,
+    "total": 93,
+    "acc": 0.6236559139784946
+   },
+   "spec": {
+    "hit": 64,
+    "total": 93,
+    "acc": 0.6881720430107527
+   },
+   "delta": 0.06451612903225812
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "metric": "AV",
+   "bare": {
+    "hit": 90,
+    "total": 93,
+    "acc": 0.967741935483871
+   },
+   "spec": {
+    "hit": 93,
+    "total": 93,
+    "acc": 1.0
+   },
+   "delta": 0.032258064516129004
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "metric": "AC",
+   "bare": {
+    "hit": 90,
+    "total": 93,
+    "acc": 0.967741935483871
+   },
+   "spec": {
+    "hit": 88,
+    "total": 93,
+    "acc": 0.946236559139785
+   },
+   "delta": -0.021505376344086002
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "metric": "PR",
+   "bare": {
+    "hit": 84,
+    "total": 93,
+    "acc": 0.9032258064516129
+   },
+   "spec": {
+    "hit": 87,
+    "total": 93,
+    "acc": 0.9354838709677419
+   },
+   "delta": 0.032258064516129004
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "metric": "UI",
+   "bare": {
+    "hit": 90,
+    "total": 93,
+    "acc": 0.967741935483871
+   },
+   "spec": {
+    "hit": 90,
+    "total": 93,
+    "acc": 0.967741935483871
+   },
+   "delta": 0.0
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "metric": "S",
+   "bare": {
+    "hit": 70,
+    "total": 93,
+    "acc": 0.7526881720430108
+   },
+   "spec": {
+    "hit": 67,
+    "total": 93,
+    "acc": 0.7204301075268817
+   },
+   "delta": -0.032258064516129004
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "metric": "C",
+   "bare": {
+    "hit": 81,
+    "total": 93,
+    "acc": 0.8709677419354839
+   },
+   "spec": {
+    "hit": 78,
+    "total": 93,
+    "acc": 0.8387096774193549
+   },
+   "delta": -0.032258064516129004
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "metric": "I",
+   "bare": {
+    "hit": 82,
+    "total": 93,
+    "acc": 0.8817204301075269
+   },
+   "spec": {
+    "hit": 78,
+    "total": 93,
+    "acc": 0.8387096774193549
+   },
+   "delta": -0.043010752688172005
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "metric": "A",
+   "bare": {
+    "hit": 74,
+    "total": 93,
+    "acc": 0.7956989247311828
+   },
+   "spec": {
+    "hit": 73,
+    "total": 93,
+    "acc": 0.7849462365591398
+   },
+   "delta": -0.010752688172043001
+  },
+  {
+   "model": "glm-5.3",
+   "metric": "AV",
+   "bare": {
+    "hit": 91,
+    "total": 93,
+    "acc": 0.978494623655914
+   },
+   "spec": {
+    "hit": 93,
+    "total": 93,
+    "acc": 1.0
+   },
+   "delta": 0.021505376344086002
+  },
+  {
+   "model": "glm-5.3",
+   "metric": "AC",
+   "bare": {
+    "hit": 89,
+    "total": 93,
+    "acc": 0.956989247311828
+   },
+   "spec": {
+    "hit": 92,
+    "total": 93,
+    "acc": 0.989247311827957
+   },
+   "delta": 0.032258064516129004
+  },
+  {
+   "model": "glm-5.3",
+   "metric": "PR",
+   "bare": {
+    "hit": 88,
+    "total": 93,
+    "acc": 0.946236559139785
+   },
+   "spec": {
+    "hit": 85,
+    "total": 93,
+    "acc": 0.9139784946236559
+   },
+   "delta": -0.032258064516129115
+  },
+  {
+   "model": "glm-5.3",
+   "metric": "UI",
+   "bare": {
+    "hit": 92,
+    "total": 93,
+    "acc": 0.989247311827957
+   },
+   "spec": {
+    "hit": 90,
+    "total": 93,
+    "acc": 0.967741935483871
+   },
+   "delta": -0.021505376344086002
+  },
+  {
+   "model": "glm-5.3",
+   "metric": "S",
+   "bare": {
+    "hit": 66,
+    "total": 93,
+    "acc": 0.7096774193548387
+   },
+   "spec": {
+    "hit": 72,
+    "total": 93,
+    "acc": 0.7741935483870968
+   },
+   "delta": 0.06451612903225801
+  },
+  {
+   "model": "glm-5.3",
+   "metric": "C",
+   "bare": {
+    "hit": 76,
+    "total": 93,
+    "acc": 0.8172043010752689
+   },
+   "spec": {
+    "hit": 82,
+    "total": 93,
+    "acc": 0.8817204301075269
+   },
+   "delta": 0.06451612903225801
+  },
+  {
+   "model": "glm-5.3",
+   "metric": "I",
+   "bare": {
+    "hit": 75,
+    "total": 93,
+    "acc": 0.8064516129032258
+   },
+   "spec": {
+    "hit": 75,
+    "total": 93,
+    "acc": 0.8064516129032258
+   },
+   "delta": 0.0
+  },
+  {
+   "model": "glm-5.3",
+   "metric": "A",
+   "bare": {
+    "hit": 76,
+    "total": 93,
+    "acc": 0.8172043010752689
+   },
+   "spec": {
+    "hit": 67,
+    "total": 93,
+    "acc": 0.7204301075268817
+   },
+   "delta": -0.09677419354838712
+  },
+  {
+   "model": "kimi-k3",
+   "metric": "AV",
+   "bare": {
+    "hit": 93,
+    "total": 93,
+    "acc": 1.0
+   },
+   "spec": {
+    "hit": 93,
+    "total": 93,
+    "acc": 1.0
+   },
+   "delta": 0.0
+  },
+  {
+   "model": "kimi-k3",
+   "metric": "AC",
+   "bare": {
+    "hit": 89,
+    "total": 93,
+    "acc": 0.956989247311828
+   },
+   "spec": {
+    "hit": 90,
+    "total": 93,
+    "acc": 0.967741935483871
+   },
+   "delta": 0.010752688172043001
+  },
+  {
+   "model": "kimi-k3",
+   "metric": "PR",
+   "bare": {
+    "hit": 87,
+    "total": 93,
+    "acc": 0.9354838709677419
+   },
+   "spec": {
+    "hit": 87,
+    "total": 93,
+    "acc": 0.9354838709677419
+   },
+   "delta": 0.0
+  },
+  {
+   "model": "kimi-k3",
+   "metric": "UI",
+   "bare": {
+    "hit": 90,
+    "total": 93,
+    "acc": 0.967741935483871
+   },
+   "spec": {
+    "hit": 90,
+    "total": 93,
+    "acc": 0.967741935483871
+   },
+   "delta": 0.0
+  },
+  {
+   "model": "kimi-k3",
+   "metric": "S",
+   "bare": {
+    "hit": 63,
+    "total": 93,
+    "acc": 0.6774193548387096
+   },
+   "spec": {
+    "hit": 71,
+    "total": 93,
+    "acc": 0.7634408602150538
+   },
+   "delta": 0.08602150537634412
+  },
+  {
+   "model": "kimi-k3",
+   "metric": "C",
+   "bare": {
+    "hit": 82,
+    "total": 93,
+    "acc": 0.8817204301075269
+   },
+   "spec": {
+    "hit": 83,
+    "total": 93,
+    "acc": 0.8924731182795699
+   },
+   "delta": 0.010752688172043001
+  },
+  {
+   "model": "kimi-k3",
+   "metric": "I",
+   "bare": {
+    "hit": 81,
+    "total": 93,
+    "acc": 0.8709677419354839
+   },
+   "spec": {
+    "hit": 72,
+    "total": 93,
+    "acc": 0.7741935483870968
+   },
+   "delta": -0.09677419354838712
+  },
+  {
+   "model": "kimi-k3",
+   "metric": "A",
+   "bare": {
+    "hit": 72,
+    "total": 93,
+    "acc": 0.7741935483870968
+   },
+   "spec": {
+    "hit": 67,
+    "total": 93,
+    "acc": 0.7204301075268817
+   },
+   "delta": -0.053763440860215006
+  }
+ ],
+ "stability": [
+  {
+   "model": "jev",
+   "metric": "AV",
+   "groups": 62,
+   "unstable": 0,
+   "rate": 0.0
+  },
+  {
+   "model": "jev",
+   "metric": "AC",
+   "groups": 62,
+   "unstable": 0,
+   "rate": 0.0
+  },
+  {
+   "model": "jev",
+   "metric": "PR",
+   "groups": 62,
+   "unstable": 0,
+   "rate": 0.0
+  },
+  {
+   "model": "jev",
+   "metric": "UI",
+   "groups": 62,
+   "unstable": 0,
+   "rate": 0.0
+  },
+  {
+   "model": "jev",
+   "metric": "S",
+   "groups": 62,
+   "unstable": 6,
+   "rate": 0.0967741935483871
+  },
+  {
+   "model": "jev",
+   "metric": "C",
+   "groups": 62,
+   "unstable": 1,
+   "rate": 0.016129032258064516
+  },
+  {
+   "model": "jev",
+   "metric": "I",
+   "groups": 62,
+   "unstable": 2,
+   "rate": 0.03225806451612903
+  },
+  {
+   "model": "jev",
+   "metric": "A",
+   "groups": 62,
+   "unstable": 3,
+   "rate": 0.04838709677419355
+  },
+  {
+   "model": "jev",
+   "metric": "VECTOR",
+   "groups": 62,
+   "unstable": 11,
+   "rate": 0.1774193548387097
+  },
+  {
+   "model": "sonnet-5",
+   "metric": "AV",
+   "groups": 62,
+   "unstable": 0,
+   "rate": 0.0
+  },
+  {
+   "model": "sonnet-5",
+   "metric": "AC",
+   "groups": 62,
+   "unstable": 2,
+   "rate": 0.03225806451612903
+  },
+  {
+   "model": "sonnet-5",
+   "metric": "PR",
+   "groups": 62,
+   "unstable": 0,
+   "rate": 0.0
+  },
+  {
+   "model": "sonnet-5",
+   "metric": "UI",
+   "groups": 62,
+   "unstable": 3,
+   "rate": 0.04838709677419355
+  },
+  {
+   "model": "sonnet-5",
+   "metric": "S",
+   "groups": 62,
+   "unstable": 5,
+   "rate": 0.08064516129032258
+  },
+  {
+   "model": "sonnet-5",
+   "metric": "C",
+   "groups": 62,
+   "unstable": 5,
+   "rate": 0.08064516129032258
+  },
+  {
+   "model": "sonnet-5",
+   "metric": "I",
+   "groups": 62,
+   "unstable": 6,
+   "rate": 0.0967741935483871
+  },
+  {
+   "model": "sonnet-5",
+   "metric": "A",
+   "groups": 62,
+   "unstable": 1,
+   "rate": 0.016129032258064516
+  },
+  {
+   "model": "sonnet-5",
+   "metric": "VECTOR",
+   "groups": 62,
+   "unstable": 14,
+   "rate": 0.22580645161290322
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "metric": "AV",
+   "groups": 62,
+   "unstable": 0,
+   "rate": 0.0
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "metric": "AC",
+   "groups": 62,
+   "unstable": 1,
+   "rate": 0.016129032258064516
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "metric": "PR",
+   "groups": 62,
+   "unstable": 2,
+   "rate": 0.03225806451612903
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "metric": "UI",
+   "groups": 62,
+   "unstable": 0,
+   "rate": 0.0
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "metric": "S",
+   "groups": 62,
+   "unstable": 3,
+   "rate": 0.04838709677419355
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "metric": "C",
+   "groups": 62,
+   "unstable": 7,
+   "rate": 0.11290322580645161
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "metric": "I",
+   "groups": 62,
+   "unstable": 6,
+   "rate": 0.0967741935483871
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "metric": "A",
+   "groups": 62,
+   "unstable": 9,
+   "rate": 0.14516129032258066
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "metric": "VECTOR",
+   "groups": 62,
+   "unstable": 22,
+   "rate": 0.3548387096774194
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "metric": "AV",
+   "groups": 62,
+   "unstable": 1,
+   "rate": 0.016129032258064516
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "metric": "AC",
+   "groups": 62,
+   "unstable": 1,
+   "rate": 0.016129032258064516
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "metric": "PR",
+   "groups": 62,
+   "unstable": 3,
+   "rate": 0.04838709677419355
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "metric": "UI",
+   "groups": 62,
+   "unstable": 1,
+   "rate": 0.016129032258064516
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "metric": "S",
+   "groups": 62,
+   "unstable": 11,
+   "rate": 0.1774193548387097
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "metric": "C",
+   "groups": 62,
+   "unstable": 6,
+   "rate": 0.0967741935483871
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "metric": "I",
+   "groups": 62,
+   "unstable": 8,
+   "rate": 0.12903225806451613
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "metric": "A",
+   "groups": 62,
+   "unstable": 15,
+   "rate": 0.24193548387096775
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "metric": "VECTOR",
+   "groups": 62,
+   "unstable": 33,
+   "rate": 0.532258064516129
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "metric": "AV",
+   "groups": 62,
+   "unstable": 0,
+   "rate": 0.0
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "metric": "AC",
+   "groups": 62,
+   "unstable": 0,
+   "rate": 0.0
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "metric": "PR",
+   "groups": 62,
+   "unstable": 0,
+   "rate": 0.0
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "metric": "UI",
+   "groups": 62,
+   "unstable": 0,
+   "rate": 0.0
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "metric": "S",
+   "groups": 62,
+   "unstable": 2,
+   "rate": 0.03225806451612903
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "metric": "C",
+   "groups": 62,
+   "unstable": 2,
+   "rate": 0.03225806451612903
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "metric": "I",
+   "groups": 62,
+   "unstable": 3,
+   "rate": 0.04838709677419355
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "metric": "A",
+   "groups": 62,
+   "unstable": 6,
+   "rate": 0.0967741935483871
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "metric": "VECTOR",
+   "groups": 62,
+   "unstable": 8,
+   "rate": 0.12903225806451613
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "metric": "AV",
+   "groups": 62,
+   "unstable": 0,
+   "rate": 0.0
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "metric": "AC",
+   "groups": 62,
+   "unstable": 1,
+   "rate": 0.016129032258064516
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "metric": "PR",
+   "groups": 62,
+   "unstable": 0,
+   "rate": 0.0
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "metric": "UI",
+   "groups": 62,
+   "unstable": 0,
+   "rate": 0.0
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "metric": "S",
+   "groups": 62,
+   "unstable": 7,
+   "rate": 0.11290322580645161
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "metric": "C",
+   "groups": 62,
+   "unstable": 1,
+   "rate": 0.016129032258064516
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "metric": "I",
+   "groups": 62,
+   "unstable": 3,
+   "rate": 0.04838709677419355
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "metric": "A",
+   "groups": 62,
+   "unstable": 3,
+   "rate": 0.04838709677419355
+  },
+  {
+   "model": "gemini-3.8-flash",
+   "metric": "VECTOR",
+   "groups": 62,
+   "unstable": 12,
+   "rate": 0.1935483870967742
+  },
+  {
+   "model": "glm-5.3",
+   "metric": "AV",
+   "groups": 62,
+   "unstable": 1,
+   "rate": 0.016129032258064516
+  },
+  {
+   "model": "glm-5.3",
+   "metric": "AC",
+   "groups": 62,
+   "unstable": 3,
+   "rate": 0.04838709677419355
+  },
+  {
+   "model": "glm-5.3",
+   "metric": "PR",
+   "groups": 62,
+   "unstable": 3,
+   "rate": 0.04838709677419355
+  },
+  {
+   "model": "glm-5.3",
+   "metric": "UI",
+   "groups": 62,
+   "unstable": 1,
+   "rate": 0.016129032258064516
+  },
+  {
+   "model": "glm-5.3",
+   "metric": "S",
+   "groups": 62,
+   "unstable": 15,
+   "rate": 0.24193548387096775
+  },
+  {
+   "model": "glm-5.3",
+   "metric": "C",
+   "groups": 62,
+   "unstable": 7,
+   "rate": 0.11290322580645161
+  },
+  {
+   "model": "glm-5.3",
+   "metric": "I",
+   "groups": 62,
+   "unstable": 11,
+   "rate": 0.1774193548387097
+  },
+  {
+   "model": "glm-5.3",
+   "metric": "A",
+   "groups": 62,
+   "unstable": 6,
+   "rate": 0.0967741935483871
+  },
+  {
+   "model": "glm-5.3",
+   "metric": "VECTOR",
+   "groups": 62,
+   "unstable": 27,
+   "rate": 0.43548387096774194
+  },
+  {
+   "model": "kimi-k3",
+   "metric": "AV",
+   "groups": 62,
+   "unstable": 0,
+   "rate": 0.0
+  },
+  {
+   "model": "kimi-k3",
+   "metric": "AC",
+   "groups": 62,
+   "unstable": 1,
+   "rate": 0.016129032258064516
+  },
+  {
+   "model": "kimi-k3",
+   "metric": "PR",
+   "groups": 62,
+   "unstable": 2,
+   "rate": 0.03225806451612903
+  },
+  {
+   "model": "kimi-k3",
+   "metric": "UI",
+   "groups": 62,
+   "unstable": 0,
+   "rate": 0.0
+  },
+  {
+   "model": "kimi-k3",
+   "metric": "S",
+   "groups": 62,
+   "unstable": 4,
+   "rate": 0.06451612903225806
+  },
+  {
+   "model": "kimi-k3",
+   "metric": "C",
+   "groups": 62,
+   "unstable": 3,
+   "rate": 0.04838709677419355
+  },
+  {
+   "model": "kimi-k3",
+   "metric": "I",
+   "groups": 62,
+   "unstable": 7,
+   "rate": 0.11290322580645161
+  },
+  {
+   "model": "kimi-k3",
+   "metric": "A",
+   "groups": 62,
+   "unstable": 4,
+   "rate": 0.06451612903225806
+  },
+  {
+   "model": "kimi-k3",
+   "metric": "VECTOR",
+   "groups": 62,
+   "unstable": 15,
+   "rate": 0.24193548387096775
+  }
+ ],
+ "reports": [
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-gfjv-gqf2-c888",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:N",
+   "title": "Gardener: Authorization Bypass via Group Subject Injection",
+   "calls": 24,
+   "hit": 121,
+   "total": 192,
+   "acc": 0.6302083333333334,
+   "exact": 0,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 6,
+     "total": 24,
+     "acc": 0.25
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 16,
+     "total": 24,
+     "acc": 0.6666666666666666
+    },
+    "C": {
+     "hit": 0,
+     "total": 24,
+     "acc": 0.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 3,
+     "total": 24,
+     "acc": 0.125
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-wmj6-g64g-j7q5",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+   "title": "sanic chunked trailer request smuggling allows hidden second request execution",
+   "calls": 24,
+   "hit": 130,
+   "total": 192,
+   "acc": 0.6770833333333334,
+   "exact": 0,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 19,
+     "total": 24,
+     "acc": 0.7916666666666666
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 16,
+     "total": 24,
+     "acc": 0.6666666666666666
+    },
+    "C": {
+     "hit": 5,
+     "total": 24,
+     "acc": 0.20833333333333334
+    },
+    "I": {
+     "hit": 18,
+     "total": 24,
+     "acc": 0.75
+    },
+    "A": {
+     "hit": 0,
+     "total": 24,
+     "acc": 0.0
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-9gm5-9rfh-m6vx",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+   "title": "CoreDNS DoH/DoQ/gRPC bypass UPDATE rejection enforced on UDP/TCP",
+   "calls": 24,
+   "hit": 139,
+   "total": 192,
+   "acc": 0.7239583333333334,
+   "exact": 4,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 9,
+     "total": 24,
+     "acc": 0.375
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 8,
+     "total": 24,
+     "acc": 0.3333333333333333
+    },
+    "C": {
+     "hit": 17,
+     "total": 24,
+     "acc": 0.7083333333333334
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 9,
+     "total": 24,
+     "acc": 0.375
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-v5mp-jgw5-2x6j",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L",
+   "title": "toml-node: Prototype Pollution Leads to `Object.prototype` Corruption via `__proto__` Key-Path Desynchronization",
+   "calls": 24,
+   "hit": 141,
+   "total": 192,
+   "acc": 0.734375,
+   "exact": 0,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 15,
+     "total": 24,
+     "acc": 0.625
+    },
+    "C": {
+     "hit": 6,
+     "total": 24,
+     "acc": 0.25
+    },
+    "I": {
+     "hit": 18,
+     "total": 24,
+     "acc": 0.75
+    },
+    "A": {
+     "hit": 6,
+     "total": 24,
+     "acc": 0.25
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-cc9r-2j5m-2m83",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N",
+   "title": "Nodemailer: Recipient-domain validation bypass via RFC 5322 comment mis-parsing leads to email delivery to an attacker-controlled domain",
+   "calls": 24,
+   "hit": 143,
+   "total": 192,
+   "acc": 0.7447916666666666,
+   "exact": 0,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 13,
+     "total": 24,
+     "acc": 0.5416666666666666
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 23,
+     "total": 24,
+     "acc": 0.9583333333333334
+    },
+    "S": {
+     "hit": 16,
+     "total": 24,
+     "acc": 0.6666666666666666
+    },
+    "C": {
+     "hit": 9,
+     "total": 24,
+     "acc": 0.375
+    },
+    "I": {
+     "hit": 10,
+     "total": 24,
+     "acc": 0.4166666666666667
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-4ghv-53cq-7wp3",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+   "title": "Home Assistant: mDNS Server-Side Request Forgery",
+   "calls": 24,
+   "hit": 154,
+   "total": 192,
+   "acc": 0.8020833333333334,
+   "exact": 2,
+   "per_metric": {
+    "AV": {
+     "hit": 22,
+     "total": 24,
+     "acc": 0.9166666666666666
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 9,
+     "total": 24,
+     "acc": 0.375
+    },
+    "C": {
+     "hit": 17,
+     "total": 24,
+     "acc": 0.7083333333333334
+    },
+    "I": {
+     "hit": 14,
+     "total": 24,
+     "acc": 0.5833333333333334
+    },
+    "A": {
+     "hit": 20,
+     "total": 24,
+     "acc": 0.8333333333333334
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-hjwh-xvfw-qrwj",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+   "title": "SearXNG Basic Authentication Credentials Exposed Through MCP Logs and JSON-RPC Error Responses",
+   "calls": 24,
+   "hit": 154,
+   "total": 192,
+   "acc": 0.8020833333333334,
+   "exact": 0,
+   "per_metric": {
+    "AV": {
+     "hit": 20,
+     "total": 24,
+     "acc": 0.8333333333333334
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 8,
+     "total": 24,
+     "acc": 0.3333333333333333
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 14,
+     "total": 24,
+     "acc": 0.5833333333333334
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 18,
+     "total": 24,
+     "acc": 0.75
+    },
+    "A": {
+     "hit": 22,
+     "total": 24,
+     "acc": 0.9166666666666666
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-f8fg-pg57-v4j8",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+   "title": "league/commonmark XSS: `on*` event-handler filter in `AttributesExtension` bypassed with a U+000C form feed",
+   "calls": 24,
+   "hit": 155,
+   "total": 192,
+   "acc": 0.8072916666666666,
+   "exact": 5,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 9,
+     "total": 24,
+     "acc": 0.375
+    },
+    "S": {
+     "hit": 22,
+     "total": 24,
+     "acc": 0.9166666666666666
+    },
+    "C": {
+     "hit": 15,
+     "total": 24,
+     "acc": 0.625
+    },
+    "I": {
+     "hit": 15,
+     "total": 24,
+     "acc": 0.625
+    },
+    "A": {
+     "hit": 22,
+     "total": 24,
+     "acc": 0.9166666666666666
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-7gwp-5pfp-969j",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N",
+   "title": "MLflow: Unauthenticated full-read SSRF in webhook delivery: _validate_webhook_url bypassed via unvalidated HTTP redirects (and DNS rebinding)",
+   "calls": 24,
+   "hit": 156,
+   "total": 192,
+   "acc": 0.8125,
+   "exact": 3,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 14,
+     "total": 24,
+     "acc": 0.5833333333333334
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 10,
+     "total": 24,
+     "acc": 0.4166666666666667
+    },
+    "A": {
+     "hit": 12,
+     "total": 24,
+     "acc": 0.5
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-5h77-88j3-r659",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:N",
+   "title": "YOURLS has stored XSS in referrer statistics chart via crafted Referer header",
+   "calls": 24,
+   "hit": 158,
+   "total": 192,
+   "acc": 0.8229166666666666,
+   "exact": 0,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "C": {
+     "hit": 12,
+     "total": 24,
+     "acc": 0.5
+    },
+    "I": {
+     "hit": 12,
+     "total": 24,
+     "acc": 0.5
+    },
+    "A": {
+     "hit": 17,
+     "total": 24,
+     "acc": 0.7083333333333334
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-p849-8hwh-84j9",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+   "title": "NocoBase: SQL injection in /api/myInAppChannels:list filter to PG-superuser RCE",
+   "calls": 24,
+   "hit": 162,
+   "total": 192,
+   "acc": 0.84375,
+   "exact": 4,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 6,
+     "total": 24,
+     "acc": 0.25
+    },
+    "UI": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "S": {
+     "hit": 17,
+     "total": 24,
+     "acc": 0.7083333333333334
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 22,
+     "total": 24,
+     "acc": 0.9166666666666666
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-43gm-9rr3-cx7g",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N",
+   "title": "Froxlor: Stored XSS in DNS TXT Record Content Allows Customer-to-Admin Account Takeover",
+   "calls": 24,
+   "hit": 163,
+   "total": 192,
+   "acc": 0.8489583333333334,
+   "exact": 0,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 20,
+     "total": 24,
+     "acc": 0.8333333333333334
+    },
+    "S": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "C": {
+     "hit": 23,
+     "total": 24,
+     "acc": 0.9583333333333334
+    },
+    "I": {
+     "hit": 23,
+     "total": 24,
+     "acc": 0.9583333333333334
+    },
+    "A": {
+     "hit": 4,
+     "total": 24,
+     "acc": 0.16666666666666666
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-c64q-hj4j-375f",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+   "title": "Yamcs vulnerable to authenticated remote code execution via unescaped StreamSQL `LIKE` pattern compiled by Janino (`LikeExpression`)",
+   "calls": 24,
+   "hit": 168,
+   "total": 192,
+   "acc": 0.875,
+   "exact": 3,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "S": {
+     "hit": 3,
+     "total": 24,
+     "acc": 0.125
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-hgjx-r89m-m7v4",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+   "title": "FacturaScripts: Path traversal in UploadedFile::move() via getClientOriginalName() \u2014 arbitrary file write outside MyFiles/ leading to   RCE",
+   "calls": 24,
+   "hit": 171,
+   "total": 192,
+   "acc": 0.890625,
+   "exact": 6,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "S": {
+     "hit": 6,
+     "total": 24,
+     "acc": 0.25
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-r2v3-8gwf-7ghm",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N",
+   "title": "vault-addr annotation SSRF -- webhook makes outbound HTTP call to attacker URL during admission; vault-serviceaccount enables cluster-wide SA token theft via TokenRequest API",
+   "calls": 24,
+   "hit": 171,
+   "total": 192,
+   "acc": 0.890625,
+   "exact": 3,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 10,
+     "total": 24,
+     "acc": 0.4166666666666667
+    },
+    "A": {
+     "hit": 17,
+     "total": 24,
+     "acc": 0.7083333333333334
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-xqhv-chqm-fhcc",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+   "title": "Joro: Unauthenticated Cross-Origin Plugin Upload Leads to RCE",
+   "calls": 24,
+   "hit": 171,
+   "total": 192,
+   "acc": 0.890625,
+   "exact": 3,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 5,
+     "total": 24,
+     "acc": 0.20833333333333334
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 22,
+     "total": 24,
+     "acc": 0.9166666666666666
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-h29v-hj44-q8cv",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+   "title": "Authorizer: Unvalidated redirect_uri in /authorize leaks OAuth2 tokens to attacker-controlled URL",
+   "calls": 24,
+   "hit": 174,
+   "total": 192,
+   "acc": 0.90625,
+   "exact": 8,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 9,
+     "total": 24,
+     "acc": 0.375
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-jjq7-m736-w977",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+   "title": "OpenC3 COSMOS: Authenticated remote code execution via the user-writable config overlay (table definitions, cmd/tlm definitions, and script suites)",
+   "calls": 24,
+   "hit": 174,
+   "total": 192,
+   "acc": 0.90625,
+   "exact": 9,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "S": {
+     "hit": 12,
+     "total": 24,
+     "acc": 0.5
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-xp7j-h7jc-4w8p",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+   "title": "Semaphore U: OS Command Injection",
+   "calls": 24,
+   "hit": 174,
+   "total": 192,
+   "acc": 0.90625,
+   "exact": 8,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "S": {
+     "hit": 9,
+     "total": 24,
+     "acc": 0.375
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-4mjr-xmp4-gh2g",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+   "title": "qs: Denial of Service via Attacker Controlled isBuffer",
+   "calls": 24,
+   "hit": 174,
+   "total": 192,
+   "acc": 0.90625,
+   "exact": 6,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 6,
+     "total": 24,
+     "acc": 0.25
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-6c8m-q6g9-vrw3",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+   "title": "Lemur: Authenticated low-privilege users can read plaintext destination credentials (SFTP password / private-key passphrase) via the destinations API",
+   "calls": 24,
+   "hit": 175,
+   "total": 192,
+   "acc": 0.9114583333333334,
+   "exact": 11,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 11,
+     "total": 24,
+     "acc": 0.4583333333333333
+    },
+    "A": {
+     "hit": 20,
+     "total": 24,
+     "acc": 0.8333333333333334
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-rgr9-r7mj-mf6x",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+   "title": "Tina: Cross-origin `POST /media/upload/*` requests can write arbitrary files into the Tina dev server media root",
+   "calls": 24,
+   "hit": 176,
+   "total": 192,
+   "acc": 0.9166666666666666,
+   "exact": 8,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 8,
+     "total": 24,
+     "acc": 0.3333333333333333
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-cxjq-mrr5-89rv",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+   "title": "Traefik: Authentication Bypass via Path Traversal in ReplacePathRegex Middleware",
+   "calls": 24,
+   "hit": 177,
+   "total": 192,
+   "acc": 0.921875,
+   "exact": 12,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 23,
+     "total": 24,
+     "acc": 0.9583333333333334
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 19,
+     "total": 24,
+     "acc": 0.7916666666666666
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "A": {
+     "hit": 18,
+     "total": 24,
+     "acc": 0.75
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-cw6x-m8jw-qmrh",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+   "title": "NLTK: Uncontrolled recursion in nltk.featstruct.FeatStructReader causes unhandled RecursionError (DoS) via deeply nested feature-structure input",
+   "calls": 24,
+   "hit": 177,
+   "total": 192,
+   "acc": 0.921875,
+   "exact": 9,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 9,
+     "total": 24,
+     "acc": 0.375
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-9xhm-w3wj-xhqh",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+   "title": "Tinyauth: Unauthenticated login attempts can trigger global login lockdown denial of service",
+   "calls": 24,
+   "hit": 178,
+   "total": 192,
+   "acc": 0.9270833333333334,
+   "exact": 13,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 20,
+     "total": 24,
+     "acc": 0.8333333333333334
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 14,
+     "total": 24,
+     "acc": 0.5833333333333334
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-hxp9-w8x3-p566",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+   "title": "Autobahn Python permessage-deflate bypasses maxMessagePayloadSize after inflation",
+   "calls": 24,
+   "hit": 178,
+   "total": 192,
+   "acc": 0.9270833333333334,
+   "exact": 11,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 23,
+     "total": 24,
+     "acc": 0.9583333333333334
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 11,
+     "total": 24,
+     "acc": 0.4583333333333333
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-cvw4-55pp-3hfq",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+   "title": "Yamcs's Missing Authorization on Role and Privilege Enumeration Endpoints Allows Any Authenticated User to Disclose Full Security Configuration",
+   "calls": 24,
+   "hit": 186,
+   "total": 192,
+   "acc": 0.96875,
+   "exact": 21,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "I": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-mjqf-28ph-426h",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+   "title": "Logging operator has Fluentd configuration injection that allows remote code execution",
+   "calls": 24,
+   "hit": 188,
+   "total": 192,
+   "acc": 0.9791666666666666,
+   "exact": 20,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 20,
+     "total": 24,
+     "acc": 0.8333333333333334
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-23hp-3jrh-7fpw",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+   "title": "node-tar: Decompression/parse DoS via unlimited input",
+   "calls": 24,
+   "hit": 189,
+   "total": 192,
+   "acc": 0.984375,
+   "exact": 21,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 22,
+     "total": 24,
+     "acc": 0.9166666666666666
+    },
+    "S": {
+     "hit": 23,
+     "total": 24,
+     "acc": 0.9583333333333334
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-prg7-hcfm-mfcr",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+   "title": "sqlparse: Inefficient Regex Handling of Dollar-Quoted SQL Literals Leads to ReDoS (Denial of Service)",
+   "calls": 24,
+   "hit": 189,
+   "total": 192,
+   "acc": 0.984375,
+   "exact": 21,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "bare",
+   "ghsa": "GHSA-9jjc-fw8x-fmwx",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+   "title": "io.moquette:moquette-broker has a Missing Authorization issue",
+   "calls": 24,
+   "hit": 192,
+   "total": 192,
+   "acc": 1.0,
+   "exact": 24,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-gfjv-gqf2-c888",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:N",
+   "title": "Gardener: Authorization Bypass via Group Subject Injection",
+   "calls": 24,
+   "hit": 122,
+   "total": 192,
+   "acc": 0.6354166666666666,
+   "exact": 0,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 3,
+     "total": 24,
+     "acc": 0.125
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 20,
+     "total": 24,
+     "acc": 0.8333333333333334
+    },
+    "C": {
+     "hit": 0,
+     "total": 24,
+     "acc": 0.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 3,
+     "total": 24,
+     "acc": 0.125
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-9gm5-9rfh-m6vx",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+   "title": "CoreDNS DoH/DoQ/gRPC bypass UPDATE rejection enforced on UDP/TCP",
+   "calls": 24,
+   "hit": 134,
+   "total": 192,
+   "acc": 0.6979166666666666,
+   "exact": 0,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 12,
+     "total": 24,
+     "acc": 0.5
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 0,
+     "total": 24,
+     "acc": 0.0
+    },
+    "C": {
+     "hit": 20,
+     "total": 24,
+     "acc": 0.8333333333333334
+    },
+    "I": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "A": {
+     "hit": 9,
+     "total": 24,
+     "acc": 0.375
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-cc9r-2j5m-2m83",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N",
+   "title": "Nodemailer: Recipient-domain validation bypass via RFC 5322 comment mis-parsing leads to email delivery to an attacker-controlled domain",
+   "calls": 24,
+   "hit": 141,
+   "total": 192,
+   "acc": 0.734375,
+   "exact": 0,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 8,
+     "total": 24,
+     "acc": 0.3333333333333333
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 19,
+     "total": 24,
+     "acc": 0.7916666666666666
+    },
+    "C": {
+     "hit": 8,
+     "total": 24,
+     "acc": 0.3333333333333333
+    },
+    "I": {
+     "hit": 10,
+     "total": 24,
+     "acc": 0.4166666666666667
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-v5mp-jgw5-2x6j",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L",
+   "title": "toml-node: Prototype Pollution Leads to `Object.prototype` Corruption via `__proto__` Key-Path Desynchronization",
+   "calls": 24,
+   "hit": 143,
+   "total": 192,
+   "acc": 0.7447916666666666,
+   "exact": 0,
+   "per_metric": {
+    "AV": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 17,
+     "total": 24,
+     "acc": 0.7083333333333334
+    },
+    "C": {
+     "hit": 12,
+     "total": 24,
+     "acc": 0.5
+    },
+    "I": {
+     "hit": 16,
+     "total": 24,
+     "acc": 0.6666666666666666
+    },
+    "A": {
+     "hit": 5,
+     "total": 24,
+     "acc": 0.20833333333333334
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-wmj6-g64g-j7q5",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+   "title": "sanic chunked trailer request smuggling allows hidden second request execution",
+   "calls": 24,
+   "hit": 143,
+   "total": 192,
+   "acc": 0.7447916666666666,
+   "exact": 0,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 20,
+     "total": 24,
+     "acc": 0.8333333333333334
+    },
+    "C": {
+     "hit": 9,
+     "total": 24,
+     "acc": 0.375
+    },
+    "I": {
+     "hit": 18,
+     "total": 24,
+     "acc": 0.75
+    },
+    "A": {
+     "hit": 0,
+     "total": 24,
+     "acc": 0.0
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-4ghv-53cq-7wp3",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+   "title": "Home Assistant: mDNS Server-Side Request Forgery",
+   "calls": 24,
+   "hit": 154,
+   "total": 192,
+   "acc": 0.8020833333333334,
+   "exact": 0,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 1,
+     "total": 24,
+     "acc": 0.041666666666666664
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 11,
+     "total": 24,
+     "acc": 0.4583333333333333
+    },
+    "A": {
+     "hit": 22,
+     "total": 24,
+     "acc": 0.9166666666666666
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-43gm-9rr3-cx7g",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N",
+   "title": "Froxlor: Stored XSS in DNS TXT Record Content Allows Customer-to-Admin Account Takeover",
+   "calls": 24,
+   "hit": 161,
+   "total": 192,
+   "acc": 0.8385416666666666,
+   "exact": 0,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 23,
+     "total": 24,
+     "acc": 0.9583333333333334
+    },
+    "S": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "C": {
+     "hit": 18,
+     "total": 24,
+     "acc": 0.75
+    },
+    "I": {
+     "hit": 18,
+     "total": 24,
+     "acc": 0.75
+    },
+    "A": {
+     "hit": 9,
+     "total": 24,
+     "acc": 0.375
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-f8fg-pg57-v4j8",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+   "title": "league/commonmark XSS: `on*` event-handler filter in `AttributesExtension` bypassed with a U+000C form feed",
+   "calls": 24,
+   "hit": 162,
+   "total": 192,
+   "acc": 0.84375,
+   "exact": 2,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 23,
+     "total": 24,
+     "acc": 0.9583333333333334
+    },
+    "UI": {
+     "hit": 9,
+     "total": 24,
+     "acc": 0.375
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 17,
+     "total": 24,
+     "acc": 0.7083333333333334
+    },
+    "I": {
+     "hit": 17,
+     "total": 24,
+     "acc": 0.7083333333333334
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-hjwh-xvfw-qrwj",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+   "title": "SearXNG Basic Authentication Credentials Exposed Through MCP Logs and JSON-RPC Error Responses",
+   "calls": 24,
+   "hit": 162,
+   "total": 192,
+   "acc": 0.84375,
+   "exact": 4,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 8,
+     "total": 24,
+     "acc": 0.3333333333333333
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 13,
+     "total": 24,
+     "acc": 0.5416666666666666
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 23,
+     "total": 24,
+     "acc": 0.9583333333333334
+    },
+    "A": {
+     "hit": 22,
+     "total": 24,
+     "acc": 0.9166666666666666
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-5h77-88j3-r659",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:N",
+   "title": "YOURLS has stored XSS in referrer statistics chart via crafted Referer header",
+   "calls": 24,
+   "hit": 163,
+   "total": 192,
+   "acc": 0.8489583333333334,
+   "exact": 0,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "C": {
+     "hit": 9,
+     "total": 24,
+     "acc": 0.375
+    },
+    "I": {
+     "hit": 15,
+     "total": 24,
+     "acc": 0.625
+    },
+    "A": {
+     "hit": 22,
+     "total": 24,
+     "acc": 0.9166666666666666
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-7gwp-5pfp-969j",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N",
+   "title": "MLflow: Unauthenticated full-read SSRF in webhook delivery: _validate_webhook_url bypassed via unvalidated HTTP redirects (and DNS rebinding)",
+   "calls": 24,
+   "hit": 164,
+   "total": 192,
+   "acc": 0.8541666666666666,
+   "exact": 7,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 8,
+     "total": 24,
+     "acc": 0.3333333333333333
+    },
+    "A": {
+     "hit": 12,
+     "total": 24,
+     "acc": 0.5
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-h29v-hj44-q8cv",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+   "title": "Authorizer: Unvalidated redirect_uri in /authorize leaks OAuth2 tokens to attacker-controlled URL",
+   "calls": 24,
+   "hit": 165,
+   "total": 192,
+   "acc": 0.859375,
+   "exact": 3,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 11,
+     "total": 24,
+     "acc": 0.4583333333333333
+    },
+    "C": {
+     "hit": 22,
+     "total": 24,
+     "acc": 0.9166666666666666
+    },
+    "I": {
+     "hit": 14,
+     "total": 24,
+     "acc": 0.5833333333333334
+    },
+    "A": {
+     "hit": 22,
+     "total": 24,
+     "acc": 0.9166666666666666
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-p849-8hwh-84j9",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+   "title": "NocoBase: SQL injection in /api/myInAppChannels:list filter to PG-superuser RCE",
+   "calls": 24,
+   "hit": 168,
+   "total": 192,
+   "acc": 0.875,
+   "exact": 5,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 8,
+     "total": 24,
+     "acc": 0.3333333333333333
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 19,
+     "total": 24,
+     "acc": 0.7916666666666666
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-r2v3-8gwf-7ghm",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N",
+   "title": "vault-addr annotation SSRF -- webhook makes outbound HTTP call to attacker URL during admission; vault-serviceaccount enables cluster-wide SA token theft via TokenRequest API",
+   "calls": 24,
+   "hit": 169,
+   "total": 192,
+   "acc": 0.8802083333333334,
+   "exact": 1,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 3,
+     "total": 24,
+     "acc": 0.125
+    },
+    "A": {
+     "hit": 22,
+     "total": 24,
+     "acc": 0.9166666666666666
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-xqhv-chqm-fhcc",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+   "title": "Joro: Unauthenticated Cross-Origin Plugin Upload Leads to RCE",
+   "calls": 24,
+   "hit": 170,
+   "total": 192,
+   "acc": 0.8854166666666666,
+   "exact": 8,
+   "per_metric": {
+    "AV": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 8,
+     "total": 24,
+     "acc": 0.3333333333333333
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-cxjq-mrr5-89rv",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+   "title": "Traefik: Authentication Bypass via Path Traversal in ReplacePathRegex Middleware",
+   "calls": 24,
+   "hit": 172,
+   "total": 192,
+   "acc": 0.8958333333333334,
+   "exact": 8,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 13,
+     "total": 24,
+     "acc": 0.5416666666666666
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 23,
+     "total": 24,
+     "acc": 0.9583333333333334
+    },
+    "A": {
+     "hit": 16,
+     "total": 24,
+     "acc": 0.6666666666666666
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-cw6x-m8jw-qmrh",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+   "title": "NLTK: Uncontrolled recursion in nltk.featstruct.FeatStructReader causes unhandled RecursionError (DoS) via deeply nested feature-structure input",
+   "calls": 24,
+   "hit": 173,
+   "total": 192,
+   "acc": 0.9010416666666666,
+   "exact": 5,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 5,
+     "total": 24,
+     "acc": 0.20833333333333334
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-4mjr-xmp4-gh2g",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+   "title": "qs: Denial of Service via Attacker Controlled isBuffer",
+   "calls": 24,
+   "hit": 174,
+   "total": 192,
+   "acc": 0.90625,
+   "exact": 6,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 6,
+     "total": 24,
+     "acc": 0.25
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-hgjx-r89m-m7v4",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+   "title": "FacturaScripts: Path traversal in UploadedFile::move() via getClientOriginalName() \u2014 arbitrary file write outside MyFiles/ leading to   RCE",
+   "calls": 24,
+   "hit": 175,
+   "total": 192,
+   "acc": 0.9114583333333334,
+   "exact": 9,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 10,
+     "total": 24,
+     "acc": 0.4166666666666667
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-9xhm-w3wj-xhqh",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+   "title": "Tinyauth: Unauthenticated login attempts can trigger global login lockdown denial of service",
+   "calls": 24,
+   "hit": 175,
+   "total": 192,
+   "acc": 0.9114583333333334,
+   "exact": 7,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 7,
+     "total": 24,
+     "acc": 0.2916666666666667
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-rgr9-r7mj-mf6x",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+   "title": "Tina: Cross-origin `POST /media/upload/*` requests can write arbitrary files into the Tina dev server media root",
+   "calls": 24,
+   "hit": 175,
+   "total": 192,
+   "acc": 0.9114583333333334,
+   "exact": 7,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 7,
+     "total": 24,
+     "acc": 0.2916666666666667
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-jjq7-m736-w977",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+   "title": "OpenC3 COSMOS: Authenticated remote code execution via the user-writable config overlay (table definitions, cmd/tlm definitions, and script suites)",
+   "calls": 24,
+   "hit": 178,
+   "total": 192,
+   "acc": 0.9270833333333334,
+   "exact": 11,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 13,
+     "total": 24,
+     "acc": 0.5416666666666666
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-c64q-hj4j-375f",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+   "title": "Yamcs vulnerable to authenticated remote code execution via unescaped StreamSQL `LIKE` pattern compiled by Janino (`LikeExpression`)",
+   "calls": 24,
+   "hit": 179,
+   "total": 192,
+   "acc": 0.9322916666666666,
+   "exact": 11,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 11,
+     "total": 24,
+     "acc": 0.4583333333333333
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-xp7j-h7jc-4w8p",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+   "title": "Semaphore U: OS Command Injection",
+   "calls": 24,
+   "hit": 181,
+   "total": 192,
+   "acc": 0.9427083333333334,
+   "exact": 13,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 13,
+     "total": 24,
+     "acc": 0.5416666666666666
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-6c8m-q6g9-vrw3",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+   "title": "Lemur: Authenticated low-privilege users can read plaintext destination credentials (SFTP password / private-key passphrase) via the destinations API",
+   "calls": 24,
+   "hit": 181,
+   "total": 192,
+   "acc": 0.9427083333333334,
+   "exact": 14,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 14,
+     "total": 24,
+     "acc": 0.5833333333333334
+    },
+    "A": {
+     "hit": 23,
+     "total": 24,
+     "acc": 0.9583333333333334
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-hxp9-w8x3-p566",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+   "title": "Autobahn Python permessage-deflate bypasses maxMessagePayloadSize after inflation",
+   "calls": 24,
+   "hit": 182,
+   "total": 192,
+   "acc": 0.9479166666666666,
+   "exact": 14,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 14,
+     "total": 24,
+     "acc": 0.5833333333333334
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-prg7-hcfm-mfcr",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+   "title": "sqlparse: Inefficient Regex Handling of Dollar-Quoted SQL Literals Leads to ReDoS (Denial of Service)",
+   "calls": 24,
+   "hit": 189,
+   "total": 192,
+   "acc": 0.984375,
+   "exact": 21,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-cvw4-55pp-3hfq",
+   "severity": "medium",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+   "title": "Yamcs's Missing Authorization on Role and Privilege Enumeration Endpoints Allows Any Authenticated User to Disclose Full Security Configuration",
+   "calls": 24,
+   "hit": 189,
+   "total": 192,
+   "acc": 0.984375,
+   "exact": 21,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 21,
+     "total": 24,
+     "acc": 0.875
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-23hp-3jrh-7fpw",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+   "title": "node-tar: Decompression/parse DoS via unlimited input",
+   "calls": 24,
+   "hit": 190,
+   "total": 192,
+   "acc": 0.9895833333333334,
+   "exact": 22,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 22,
+     "total": 24,
+     "acc": 0.9166666666666666
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-mjqf-28ph-426h",
+   "severity": "critical",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+   "title": "Logging operator has Fluentd configuration injection that allows remote code execution",
+   "calls": 24,
+   "hit": 191,
+   "total": 192,
+   "acc": 0.9947916666666666,
+   "exact": 23,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 23,
+     "total": 24,
+     "acc": 0.9583333333333334
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  },
+  {
+   "condition": "spec",
+   "ghsa": "GHSA-9jjc-fw8x-fmwx",
+   "severity": "high",
+   "expected": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+   "title": "io.moquette:moquette-broker has a Missing Authorization issue",
+   "calls": 24,
+   "hit": 192,
+   "total": 192,
+   "acc": 1.0,
+   "exact": 24,
+   "per_metric": {
+    "AV": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "AC": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "PR": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "UI": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "S": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "C": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "I": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    },
+    "A": {
+     "hit": 24,
+     "total": 24,
+     "acc": 1.0
+    }
+   }
+  }
+ ]
+}

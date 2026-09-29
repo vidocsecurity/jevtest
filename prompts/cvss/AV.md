@@ -1,0 +1,23 @@
+## AV - Attack Vector
+
+This metric reflects the context by which vulnerability exploitation is possible. This metric value (and consequently the Base Score) will be larger the more remote (logically, and physically) an attacker can be in order to exploit the vulnerable component. The assumption is that the number of potential attackers for a vulnerability that could be exploited from across a network is larger than the number of potential attackers that could exploit a vulnerability requiring physical access to a device, and therefore warrants a greater Base Score. The list of possible values is presented in Table 1.
+
+- `AV:N` Network - The vulnerable component is bound to the network stack and the set of possible attackers extends beyond the other options listed below, up to and including the entire Internet. Such a vulnerability is often termed “remotely exploitable” and can be thought of as an attack being exploitable at the protocol level one or more network hops away (e.g., across one or more routers). An example of a network attack is an attacker causing a denial of service (DoS) by sending a specially crafted TCP packet across a wide area network (e.g., CVE‑2004‑0230).
+- `AV:A` Adjacent - The vulnerable component is bound to the network stack, but the attack is limited at the protocol level to a logically adjacent topology. This can mean an attack must be launched from the same shared physical (e.g., Bluetooth or IEEE 802.11) or logical (e.g., local IP subnet) network, or from within a secure or otherwise limited administrative domain (e.g., MPLS, secure VPN to an administrative network zone). One example of an Adjacent attack would be an ARP (IPv4) or neighbor discovery (IPv6) flood leading to a denial of service on the local LAN segment (e.g., CVE‑2013‑6014).
+- `AV:L` Local - The vulnerable component is not bound to the network stack and the attacker’s path is via read/write/execute capabilities. Either: the attacker exploits the vulnerability by accessing the target system locally (e.g., keyboard, console), or remotely (e.g., SSH); or the attacker relies on User Interaction by another person to perform actions required to exploit the vulnerability (e.g., using social engineering techniques to trick a legitimate user into opening a malicious document).
+- `AV:P` Physical - The attack requires the attacker to physically touch or manipulate the vulnerable component. Physical interaction may be brief (e.g., evil maid attack 1 ) or persistent. An example of such an attack is a cold boot attack in which an attacker gains access to disk encryption keys after physically accessing the target system. Other examples include peripheral attacks via FireWire/USB Direct Memory Access (DMA).
+
+## Scoring guidance
+
+- When deciding between Network and Adjacent, if an attack can be launched over a wide area network or from outside the logically adjacent administrative network domain, use Network. Network should be used even if the attacker is required to be on the same intranet to exploit the vulnerable system (e.g., the attacker can only exploit the vulnerability from inside a corporate network).
+
+## Examples
+
+- MySQL Stored SQL Injection (CVE-2013-0375), `AV:N` - The attacker connects to the exploitable MySQL database over a network.
+- GNU Bourne-Again Shell (Bash) ‘Shellshock’ Vulnerability (CVE-2014-6271), `AV:N` - The reasonable worst-case scenario is a network attack via a web server.
+- Remote Code Execution in Oracle Outside in Technology (CVE-2016-5558), `AV:N` - Although it is possible that this program only accepts input from local processes, the library is commonly used with a web application server which is often deployed on the Internet. We assume the latter as it is the reasonable worst case, i.e. the metric value that results in the greatest Base Score.
+- Apache Tomcat XML Parser Vulnerability (CVE-2009-0783), `AV:L` - Local user access is required to read/modify Tomcat configuration files.
+- Microsoft Windows Bluetooth Remote Code Execution Vulnerability (CVE-2011-1265), `AV:A` - The attacker would need to be in the same proximity as the target machine in order to send and receive radio transmissions within the Bluetooth radio spectrum.
+- Juniper Proxy ARP Denial of Service Vulnerability (CVE-2013-6014), `AV:A` - Exploitation of this vulnerability requires network adjacency with the target system.
+- Intel DCI Issue (CVE-2018-3652), `AV:P` - The attacker must have physical access to the DCI port in order to attach the debugging device.
+- Adobe Acrobat Buffer Overflow Vulnerability (CVE-2009-0658), `AV:L` - A flaw in the local document software that is triggered by opening a malformed document.
